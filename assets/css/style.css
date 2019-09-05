@@ -1,0 +1,138 @@
+html {
+  background-color: #d47205;
+  color: #222;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 5rem;
+  margin-bottom: 2rem;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.primary-header {
+  background: url(../images/ic-logo.svg) 24px no-repeat;
+  background-size: 32px;
+  
+}
+.primary-header h1 {
+  font-size: 2.4rem;
+  margin-left: 58px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+.primary-header span {
+    font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+.navbar a {
+  text-decoration: none;
+  color: #222;
+  font-size: 1.4rem;
+}
+.navbar a:hover {
+  color: #666;
+}
+.nav-link {
+  display: inline-flex;
+  margin-right: 1.6rem;
+}
+.nav-link:last-child {
+  margin-right: 2.4rem;
+}
+
+
+.banner {
+  background: #aaa;
+  display: flex;
+  align-items: center;
+}
+.banner-figure {
+  flex-basis: 60rem;
+  padding: 3.2rem 2.4rem;
+}
+.banner-image {
+  width: 100%;
+  height: auto;
+}
+.banner-text {
+  flex-basis: 40%;
+  padding-right: 2.4rem;
+}
+.banner p {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+  margin-bottom: 3rem;
+}
+
+.button {
+  background-color: #222;
+  border: none;
+  color: whitesmoke;
+  padding: 1.4rem;
+  text-align: center;
+  font-size: 1.6rem;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #d47205;
+}
+
+.information-main {
+  background-color: whitesmoke;
+  color: #222;
+  display: flex;;
+  flex-wrap: wrap;
+}
+.information-main figure {
+  max-width: 60%;
+  padding: 3.2rem 2.4rem;
+}
+.information-main img {
+  width: 100%;
+  height: auto;
+}
+.information-main h2 {
+  margin-top: 3.2rem;
+  margin-bottom: 2.4rem;
+  font-size: 3.2rem;
+}
+.information-main p {
+  font-size: 1.4rem;
+  line-height: 1.96rem;
+  margin-bottom: 2.4rem;
+}
+.information-main small {
+  font-family: "Merriweather";
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+
+.information-aside {
+  display: flex;
+  flex-basis: 40%;
+  padding: 1.6rem;
+}
+
+.aside-thumbnail img{
+  width: 35%;
+  height: auto;
+}
