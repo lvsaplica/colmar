@@ -9,8 +9,25 @@ html {
 h2 {
   font-size: 4rem;
   font-weight: 900;
-  line-height: 5rem;
+  line-height: 5.6rem;
   margin-bottom: 2rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.36rem;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.96rem;
+}
+
+small {
+  font-family: "Merriweather";
+  font-size: 1rem;
+  line-height: 1.4rem;
 }
 
 .container {
@@ -57,12 +74,12 @@ h2 {
 
 
 .banner {
-  background: #aaa;
+  background: #bbb;
   display: flex;
   align-items: center;
 }
 .banner-figure {
-  flex-basis: 60rem;
+  flex-basis: 60%;
   padding: 3.2rem 2.4rem;
 }
 .banner-image {
@@ -91,7 +108,6 @@ h2 {
   display: block;
   width: 100%;
 }
-
 .button:hover {
   background-color: #d47205;
 }
@@ -99,12 +115,13 @@ h2 {
 .information-main {
   background-color: whitesmoke;
   color: #222;
-  display: flex;;
-  flex-wrap: wrap;
+  display: flex;
+  /*align-items: center;*/
 }
 .information-main figure {
-  max-width: 60%;
+  flex-basis: 60%;
   padding: 3.2rem 2.4rem;
+  border-right: 1px solid #bbb;
 }
 .information-main img {
   width: 100%;
@@ -115,24 +132,25 @@ h2 {
   margin-bottom: 2.4rem;
   font-size: 3.2rem;
 }
-.information-main p {
-  font-size: 1.4rem;
-  line-height: 1.96rem;
+.information-image p {
   margin-bottom: 2.4rem;
-}
-.information-main small {
-  font-family: "Merriweather";
-  font-size: 1rem;
-  line-height: 1.4rem;
 }
 
 .information-aside {
-  display: flex;
   flex-basis: 40%;
-  padding: 1.6rem;
+  padding-top: 1.6rem;
 }
 
+.aside-thumbnail {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #bbb;
+}
 .aside-thumbnail img{
-  width: 35%;
+  flex-basis: 35%;
   height: auto;
+  padding: 1.6rem;
+}
+.aside-thumbnail:last-child {
+  border-bottom: none;
 }
