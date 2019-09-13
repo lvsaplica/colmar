@@ -7,16 +7,16 @@ html {
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 3.2rem;
   font-weight: 900;
-  line-height: 5.6rem;
+  line-height: 4.48rem;
   margin-bottom: 2rem;
 }
 
 h3 {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   font-weight: 700;
-  line-height: 3.36rem;
+  line-height: 3.08rem;
 }
 
 p {
@@ -25,13 +25,13 @@ p {
 }
 
 small {
-  font-family: "Merriweather";
+  font-family: "Merriweather", serif;
   font-size: 1rem;
   line-height: 1.4rem;
 }
 
 .container {
-  width: 1000px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -62,7 +62,7 @@ small {
   font-size: 1.4rem;
 }
 .navbar a:hover {
-  color: #666;
+  color: #bbb;
 }
 .nav-link {
   display: inline-flex;
@@ -72,14 +72,25 @@ small {
   margin-right: 2.4rem;
 }
 
-
-.banner {
-  background: #bbb;
+.col-60-40 {
   display: flex;
   align-items: center;
 }
-.banner-figure {
+.column-60 {
   flex-basis: 60%;
+}
+.column-40 {
+  flex-basis: 40%;
+}
+
+.banner {
+  background: #bbb;
+}
+.banner h2 {
+  font-size: 4rem;
+  line-height: 5.6rem;
+}
+.banner-figure {
   padding: 3.2rem 2.4rem;
 }
 .banner-image {
@@ -87,7 +98,6 @@ small {
   height: auto;
 }
 .banner-text {
-  flex-basis: 40%;
   padding-right: 2.4rem;
 }
 .banner p {
@@ -115,15 +125,16 @@ small {
 .information-main {
   background-color: whitesmoke;
   color: #222;
-  display: flex;
-  /*align-items: center;*/
 }
 .information-main figure {
-  flex-basis: 60%;
   padding: 3.2rem 2.4rem;
   border-right: 1px solid #bbb;
 }
 .information-main img {
+  width: 100%;
+  height: auto;
+}
+.information-main video {
   width: 100%;
   height: auto;
 }
@@ -137,14 +148,24 @@ small {
 }
 
 .information-aside {
-  flex-basis: 40%;
   padding-top: 1.6rem;
+}
+.information-aside ul {
+  flex-basis: 65%;
+}
+.information-aside a {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+.aside-thumbnail li {
+  margin-bottom: 0.8rem;
 }
 
 .aside-thumbnail {
   display: flex;
   align-items: center;
   border-bottom: 1px solid #bbb;
+  padding-right: 2.4rem;
 }
 .aside-thumbnail img{
   flex-basis: 35%;
@@ -153,4 +174,59 @@ small {
 }
 .aside-thumbnail:last-child {
   border-bottom: none;
+}
+
+.featured {
+  background-color: #d47205;
+}
+
+.start-learning {
+  background-color: #bbb;
+  padding: 3.2rem 7.2rem 0 7.2rem;
+}
+.section-title {
+  padding-bottom: 3.2rem;
+  text-align: center;
+}
+
+.learning-grid {
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: wrap;
+  
+}
+.learning-grid figure {
+  flex-basis: 30%;
+  max-width: 30%;
+  margin-bottom: 3.2rem;
+}
+.learning-grid img {
+  width: 100%;
+  height: auto;
+}
+.learning-grid ul {
+  padding: 1.6rem;
+  padding-bottom: 2.4rem;
+  padding-top: 0.8rem;
+  background-color: whitesmoke;
+  border: none;
+  border-top: 2px solid #d47205;
+}
+.learning-grid li {
+  padding-top: 0.8rem;
+}
+.courses {
+  text-transform: uppercase;
+}
+
+.thesis {
+  padding: 3.2rem 0 2.4rem 3.2rem;
+  background-color: whitesmoke;
+}
+
+.primary-footer {
+  border-top: 1px solid #bbb;
+}
+.primary-footer p {
+  margin-left: 2.4rem;
 }

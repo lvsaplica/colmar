@@ -3,11 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="author" content="Luis Varandas Sales">
   <title>Colmar Academy</title>
-  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap&subset=latin-ext" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap" rel="stylesheet">
 </head>
@@ -26,19 +25,19 @@
   </header>
 
   <main class="container">
-    <section class="banner">
-      <figure class="banner-figure">
+    <section class="col-60-40 banner">
+      <figure class="column-60 banner-figure">
         <img class="banner-image" src="./assets/images/banner.jpg" alt="">
       </figure>
-      <div class="banner-text">
+      <div class="column-40 banner-text">
         <h2>Learn something new everyday</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <button type="button" class="button">Start here</button>
       </div>
     </section>
 
-    <section class="information-main">
-      <figure class="information-image">
+    <section class="col-60-40 information-main">
+      <figure class="column-60 information-image">
         <img src="./assets/images/information-main.jpg" alt="">
         <h2>It doesn't hurt to keep practicing</h2>
         <p>"Accumsan feugiat habitant nullam parturient at, tristique mattis fusce aptent vel, massa sodales ante libero. Hac orci nullam sagittis curae leo aliquet cum, commodo odio facilisi tristique turpis natoque mollis, sociis integer vitae taciti inceptos dis."</p>
@@ -46,7 +45,7 @@
       </figure>
     
 
-    <section class="information-aside">
+    <section class="column-40 information-aside">
       <div class="aside-thumbnail">
         <img src="./assets/images/information-orientation.jpg" alt="">
         <ul>
@@ -56,25 +55,158 @@
         </ul>
       </div>
       <div class="aside-thumbnail">
-        <img src="./assets/images/information-orientation.jpg" alt="">
+        <img src="./assets/images/information-campus.jpg" alt="">
         <ul>
-          <li><h3>Orientation date</h3></li>
-          <li><p>Tue 10/11 &amp; Wed 10/12: 8am-3pm</p></li>
+          <li><h3>Our campus</h3></li>
+          <li><p>Find with campus is close by you</p></li>
           <li><a href="#">Read More</a></li>
         </ul>
       </div>
-      <div class="aside-thumbnail">
-        <img src="./assets/images/information-orientation.jpg" alt="">
+      <div class="aside-thumbnail featured">
+        <img src="./assets/images/information-guest-lecture.jpg" alt="">
         <ul>
-          <li><h3>Orientation date</h3></li>
-          <li><p>Tue 10/11 &amp; Wed 10/12: 8am-3pm</p></li>
+          <li><h3>Our gest lecture</h3></li>
+          <li><p>Join a keynote with Oliver Sack about music in medical treatment</p></li>
           <li><a href="#">Read More</a></li>
         </ul>
       </div>
     </section>
   </section>
 
+  <section class="start-learning">
+    <h2 class="section-title">Start learning</h2>
+    <div class="learning-grid">
+      <figure>
+            <img src="./assets/images/course-software.jpg" alt="">
+            <ul>
+              <li>
+                  <h3>Sotware engineering</h3>
+              </li>
+              <li>
+                  <p class="courses">courses</p>
+              </li>
+              <li>
+                  <p>Web Development, Mobile Development, iOT, API's  </p>
+              </li>
+            </ul>
+      </figure>
+      <figure>
+        <img src="./assets/images/course-computer-art.jpg" alt="">
+        <ul>
+          <li>
+              <h3>Computer art</h3>
+          </li>
+          <li>
+              <p class="courses">courses</p>
+          </li>
+          <li>
+              <p>Imaging &amp; Design, Web Deseign, Mothion Graphics &amp; Visual Effects, Computaer animation</p>
+          </li>
+        </ul>
+      </figure>
+      <figure>
+        <img src="./assets/images/course-design.jpg" alt="">
+        <ul>
+          <li>
+              <h3>Design</h3>
+          </li>
+          <li>
+              <p class="courses">courses</p>
+          </li>
+          <li>
+              <p>User Experience Design, User Research, Visual Design</p>
+          </li>
+        </ul>
+      </figure>
+      <figure>
+        <img src="./assets/images/course-data.jpg" alt="">
+        <ul>
+          <li>
+              <h3>Data</h3>
+          </li>
+          <li>
+              <p class="courses">courses</p>
+          </li>
+          <li>
+              <p>Data Science, Big Data, SQL, Data Visualization</p>
+          </li>
+        </ul>
+      </figure>
+      <figure>
+        <img src="./assets/images/course-business.jpg" alt="">
+        <ul>
+          <li>
+              <h3>Business</h3>
+          </li>
+          <li>
+              <p class="courses">courses</p>
+          </li>
+          <li>
+              <p>Product Development, Business Development, Startup</p>
+          </li>
+        </ul>
+      </figure>
+      <figure>
+          <img src="./assets/images/course-marketing.jpg" alt="">
+          <ul>
+            <li>
+                <h3>Marketing</h3>
+            </li>
+            <li>
+                <p class="courses">courses</p>
+            </li>
+            <li>
+                <p>Analytics, Content Marketing, Mobile-Marketing</p>
+            </li>
+          </ul>
+      </figure>
+    </div>
+  </section>
+
+  <section class="thesis">
+      <h2 class="section-title">The Thesis</h2>
+      <section class="col-60-40 information-main">
+          <figure class="column-60 information-image">
+            <video controls>
+            <source src="./assets/videos/thesis.mp4">
+            </video>
+            <h2>Reimagine urban</h2>
+            <p>"Accumsan feugiat habitant nullam parturient at, tristique mattis fusce aptent vel, massa sodales ante libero. Hac orci nullam sagittis curae leo aliquet cum, commodo odio facilisi tristique turpis natoque mollis, sociis integer vitae taciti inceptos dis."</p>
+          </figure>
+        
+    
+        <section class=" column-40 information-aside">
+          <div class="aside-thumbnail featured">
+            <img src="./assets/images/thesis-fisma.jpg" alt="">
+            <ul>
+              <li><h3>Fisma: Design and Prototype</h3></li>
+              <li><p>Designer showcase of new prototype product</p></li>
+            </ul>
+          </div>
+          <div class="aside-thumbnail">
+            <img src="./assets/images/thesis-now-and-then.jpg" alt="">
+            <ul>
+              <li><h3>Now and then</h3></li>
+              <li><p>Research study about New York</p></li>
+            </ul>
+          </div>
+        </section>
+      </section>
+
+  </section>
+
   </main>
+
+  <footer class="primary-footer container">
+      <nav class="navbar">
+          <p>&copy; 2016 ColmarAcademy. All rights reserved</h1>
+          <ul>
+            <li class="nav-link"><a href="#">Terms</a></li>
+            <li class="nav-link"><a href="#">Privacy</a></li>
+          </ul>
+        </nav>
+  </footer>
+
     
 </body>
 </html>
